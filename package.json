@@ -10,5 +10,11 @@
   },
   "dependencies": {},
   "devDependencies": {},
-  "license": "MIT"
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Your Name",
+      "email": "your.email@example.com"
+    }
+  ]
 }
