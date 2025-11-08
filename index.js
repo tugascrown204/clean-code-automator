@@ -17,9 +17,10 @@ const main = (args) => {
 
     if (command === 'analyze' && projectPath) {
         analyzeCode(projectPath);
+    } else if (command === 'refactor' && projectPath) {
         refactorCode(projectPath);
     } else {
-        console.log('Usage: npm run analyze <your-project-path>');
+        console.log('Usage: npm run <command> <your-project-path>');
     }
 };
 
