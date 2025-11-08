@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "analyze": "node index.js analyze",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "start": "node index.js"
   },
   "dependencies": {},
   "devDependencies": {},
