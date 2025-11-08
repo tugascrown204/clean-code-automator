@@ -4,7 +4,8 @@
   "description": "A tool to assist in writing clean and maintainable code.",
   "main": "index.js",
   "scripts": {
-    "analyze": "node index.js analyze"
+    "analyze": "node index.js analyze",
+    "lint": "eslint ."
   },
   "dependencies": {},
   "devDependencies": {},
