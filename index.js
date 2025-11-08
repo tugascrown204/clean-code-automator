@@ -15,9 +15,14 @@ const main = (args) => {
     const command = args[2];
     const projectPath = args[3];
 
-    if (command === 'analyze' && projectPath) {
+    if (!projectPath) {
+        console.log('Error: Project path is required.');
+        return;
+    }
+
+    if (command === 'analyze') {
         analyzeCode(projectPath);
-    } else if (command === 'refactor' && projectPath) {
+    } else if (command === 'refactor') {
         refactorCode(projectPath);
     } else {
         console.log('Usage: npm run <command> <your-project-path>');
