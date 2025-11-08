@@ -24,9 +24,11 @@ const main = (args) => {
         analyzeCode(projectPath);
     } else if (command === 'refactor') {
         refactorCode(projectPath);
-    } else {
+    } else if (command === 'help') {
         console.log('Usage: npm run <command> <your-project-path>');
-    }
-};
-
-main(process.argv);
+        console.log('Commands:');
+        console.log('  analyze: Analyze the given project path');
+        console.log('  refactor: Refactor the given project path');
+    } else {
+        console.log('Error: Unknown command.');
+        console.log('Use 
