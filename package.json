@@ -1,0 +1,12 @@
+{
+  "name": "clean-code-automator",
+  "version": "1.0.0",
+  "description": "A tool to assist in writing clean and maintainable code.",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "node index.js analyze"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
