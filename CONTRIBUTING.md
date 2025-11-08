@@ -7,7 +7,7 @@ We welcome contributions from the community! Here are some guidelines to get sta
 2. Create a new branch (e.g., `git checkout -b feature-branch`).
 3. Make your changes.
 4. Test your changes to ensure they work as expected. Please run all existing tests and add new tests if applicable. It’s important to ensure that all edge cases are covered.
-5. Commit your changes (e.g., `git commit -m 'Add new feature'`).
+5. Commit your changes with a descriptive message (e.g., `git commit -m 'Add new feature'`).
 6. Push to your branch (e.g., `git push origin feature-branch`).
 7. Open a Pull Request with a detailed description of your changes.
 
